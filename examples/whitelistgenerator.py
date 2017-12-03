@@ -14,7 +14,7 @@ from instabot import Bot
 bot = Bot()
 bot.login()
 
-wait = 3
+wait = 4
 
 your_following = bot.get_user_following(bot.user_id)
 already_whitelisted = bot.read_list_from_file("whitelist.txt")
